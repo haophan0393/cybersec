@@ -3,7 +3,8 @@
 This bashscript runs metasploit framework's msfconsole and opens backdoor in windows machine.
 
 ### Installation
-- Download the script in the repository and move a directory OR
+- Download the script in the repository and move to a directory 
+  OR
   ```sh
   git clone https://github.com/meanishn/cybersec.git
   ```
@@ -19,10 +20,10 @@ This bashscript runs metasploit framework's msfconsole and opens backdoor in win
 - In the current directory you should be able to see the executable named ``` play.exe ```
 
 The executable file play.exe should be sent to the target machine (windows xp/7). 
-When this executable is opened in target machine then in your host machine you have a meterpreter console 
-with full access to the target machine.
+When this executable is opened in target machine(windows) then in your host machine(kali) you have a meterpreter console running
+with full access to the windows machine.
 
-NOTE: Use internet Explorer to download this exe file. Other browsers will detect this as virus and wont allow you to download.
+NOTE: If you are downloading, use internet Explorer to download this exe file. Other browsers will detect this as virus and wont allow you to download.
 
 To test the attack, type ``` screenshot ``` in the meterpreter console. You should get the screenshot image from your target machine.
 
