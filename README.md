@@ -90,7 +90,7 @@ Requirements: msfconsole (pre-installed with kali), veil-evasion
   ```bash
     Meterpreter session 1 opened (192.168.....) 
   ```
-- Type ```sessions```` to see all session information and make note of id of the session.
+- Type ```sessions``` to see all session information and make note of id of the session.
 - Type ``` sessions -i [ID] ``` to start interacting with target machine
 - Finally you should be able to see ```meterpreter>``` console. To test type ```screenshot``` to take screenshot from target machine.
 - Enjoy!!!
